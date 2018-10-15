@@ -1,1 +1,7 @@
 # battle
+
+## Usage
+
+```shell
+bundle
+```
