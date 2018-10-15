@@ -1,7 +1,7 @@
 require 'sinatra'
 
 get '/' do
-  "hello!"
+  "<h1>hello!</h1>"
 end
 
 get '/secret' do
@@ -14,4 +14,8 @@ end
 
 get '/joke' do
   "Why did the coffee go to the police. ... Because it got mugged."
+end
+
+get '/cat' do
+  "<img src='http://bit.ly/1eze8aE' style='border: dashed red;'>"
 end
